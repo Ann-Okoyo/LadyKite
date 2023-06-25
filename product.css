@@ -1,0 +1,130 @@
+nav {
+   
+    display: flex;
+    font-weight: bolder;
+    font-size: 60%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 2%;
+    margin-left: 60%;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    font-size: 70%;
+  }
+  
+  li {
+    margin: 0 10px;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  .lady{
+    display: flex;
+    margin-bottom: 2%;
+    
+  }
+  .kite2{
+    color:orange; 
+  }
+  .ladylogo{
+    margin-top: -30%;
+    margin-left: -20%;
+  }
+  .kite{
+    margin-top: -30%;
+  }
+  .machinery1{
+    background-color: black;
+    width: 100%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    
+
+  }
+  .match{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  .line-containerz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .linez {
+    width: 50px;
+    height: 5px;
+    background-color:orange;
+    margin: 10px;
+    transform-origin: center;
+    transform: scaleY(0);
+    animation: lineAnimation 1s ease-in-out infinite;
+
+    
+  }
+  
+  @keyframes lineAnimation {
+    0% {
+      transform: scaleY(0);
+    }
+    50% {
+      transform: scaleY(1);
+    }
+    100% {
+      transform: scaleY(0);
+    }
+  }
+  .maneno li{
+    list-style: none;
+    color: white;
+    
+  }
+  .compresser{
+    background-color:orange;
+    width: 30%;
+    height: 80%;
+    border-radius: 4%;
+  }
+  .air{
+    text-align: center;
+
+  }
+  .prod1{
+    margin-left: 5%;
+  }
+  .power{
+    margin-left: 10%;
+    margin-bottom: -1%;
+    background-color: whitesmoke;
+    border-radius: 1%;
+    
+  }
+  .carrtz{
+    display: flex;
+  }
+  .add-to-cart {
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .price{
+    text-align: center;
+  }
+  .quotes{
+    color: orange;
+    text-align: center;
+  }

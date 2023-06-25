@@ -1,0 +1,424 @@
+body{
+    background-color:whitesmoke;
+}
+.cart{
+    text-align: center;
+    color:black;
+    font-weight: 20px;
+    font-size: 10px;
+    height: 10vh;
+    margin-top: -2%;
+    margin-bottom: 15%;
+}
+.cart h2{
+    padding-top: 5%;
+    font-size: 300%;
+}
+.fruits .image{
+    width: 15%;
+    height: 10%;
+    border: solid 1px transparent ;
+    background-color:orange;
+    border-radius: 10%;
+}
+.fruits .image2{
+    width: 15%;
+    height: 35vh;
+    border: solid 1px transparent ;
+    background-color: white;
+    border-radius: 10%;
+}
+.banana{
+    display: flex;
+    gap: 2rem;
+    width: 70%;
+    height: 40vh;
+    border: solid 1px transparent ;
+    background-color: white;
+    border-radius: 5.5%;
+}
+.cabbage{
+    display: flex;
+    gap: 2rem;
+    width: 70%;
+    height: 40vh;
+    border: solid 1px transparent ;
+    background-color: white;
+    border-radius: 5%;
+     margin-top: 6%;
+}
+.orders{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    border: solid 1px white;
+    width: 30%;
+    height: 40vh;
+    background-color: white;
+    margin-left: 35%;
+    border-radius: 10px;
+}
+.orders .words{
+    margin-left: 10%;
+    padding-top: 40px;
+}
+.orders .numbers{
+    margin-right: 10%;
+    padding-top: 40px;
+}
+.but-order{
+    background-color: orange;
+    color: black;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 35px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+.add1{
+   margin-top: 35%;
+}
+.add2{
+    margin-top: 35%;
+}
+.bx bx-message-rounded-add{
+    width: 60%;
+    height: 60%;
+}
+.bx bx-message-rounded-minus{
+    width: 60%;
+    height: 60%;
+}
+.partimg{
+    border: solid 1px white;
+    width: 55%;
+    height: 15vh;
+    background-color: white;
+    border-radius: 30px;
+    margin-left: 8%;
+}
+.partimg:hover{
+    cursor: pointer;
+    background-color: orange;
+}
+ .payment{
+    margin-left: 10%;
+}
+.payment h1{
+    margin-left: 10%;
+    color:wheat;
+}
+.payment h2{
+    font-weight: 100px;
+    font-size: 40px;
+    color:whitesmoke;
+}
+.but2{
+    background-color: white;
+    color: black;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 35px;
+    border-radius: 30px;
+    margin-top: 10%;
+    margin-left: 14%;
+    animation-name: slideInLeft;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+.but2:hover{
+    cursor: pointer;
+    background-color: orange;
+}
+
+@keyframes slideInLeft {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+#ban1{
+    object-fit: contain;
+    width: 50%;
+    height: 60%;
+    border: solid 1px transparent ;
+    border-radius: 10%;
+    background-color: white;
+}
+#ban2{
+    object-fit: cover;
+    width: 50%;
+    height: 40vh;
+    border: solid 1px transparent ;
+    border-radius: 10%;
+}
+.items{
+    width: 100%;
+    display: flex;
+}
+.fruits{
+    width: 50%;
+    margin-left: 5%;
+}
+.but{
+    background-color: orange;
+    color: black;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 65px;
+    border-radius: 30px;
+    display: flex;
+    font-size: 15px;
+}
+.icon1{
+    margin-right: 35%;
+    align-items: center;
+}
+.icon2{
+    margin-left: 35%;
+    align-items: center;
+}
+.icon3{
+    margin-right: 35%;
+    align-items: center;
+}
+.icon4{
+    margin-left: 35%;
+    align-items: center;
+}
+.banana{
+    display: flex;
+    gap: 2rem;
+    width: 70%;
+    height: 30vh;
+    border: solid 1px transparent ;
+    background-color: white;
+    border-radius: 5.5%;
+}
+#ban1{
+    object-fit: contain;
+    width: 40%;
+    height: 30vh;
+    border: solid 1px transparent ;
+    border-radius: 10%;
+    background-color: white;
+}
+#ban2{
+    object-fit: cover;
+    width: 50%;
+    height: 20vh;
+    border: solid 1px transparent ;
+    border-radius: 10%;
+}
+.cabbage{
+    display: flex;
+    gap: 2rem;
+    width: 70%;
+    height: 30vh;
+    border: solid 1px transparent ;
+    background-color: white;
+    border-radius: 5%;
+     margin-top: 6%;
+}
+.partimg{
+    border: solid 1px white;
+    width: 20%;
+    height: 10vh;
+    background-color: white;
+    border-radius: 30px;
+    margin-left: 8%;
+}
+.but{
+    background-color: white;
+    color: black;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 65px;
+    width: 20%;
+    height: 5vh;
+}
+.payment h1{
+    margin-left: 10%;
+    color:wheat;
+    margin-left: -40%;
+}
+.payment h2{
+    font-size: 30px;
+    color:whitesmoke;
+    margin-left: -60%;
+}
+.partimg{
+    object-fit: cover;
+    border: solid 1px white;
+    width: 80%;
+    height: 10vh;
+    background-color: white;
+    border-radius: 30px;
+    margin-left: -45%;
+}
+.but2{
+    background-color: white;
+    color: black;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 35px;
+    border-radius: 30px;
+    margin-top: 10%;
+    margin-left: -45%;
+    animation-name: slideInLeft;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+.prt4{
+    color: black;
+}
+.orders{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    border: solid 1px white;
+    width: 40%;
+    height: 40vh;
+    background-color: white;
+    margin-left: 35%;
+    border-radius: 10px;
+}
+.peso{
+    color:orange;
+}
+.orders .words{
+    padding-top: 40px;
+}
+.orders .numbers{
+    padding-top: 40px;
+}
+.add1{
+   margin-top: 5%;
+}
+.add2{
+    margin-top: 5%;
+}
+#ban6{
+    margin-bottom: 3%;
+    margin-top: 1%;
+    border: radius 10px; 
+}
+.ment{
+    color: black;
+}
+/* Small screens */
+@media screen and (max-width: 480px) {
+    .cart h2 {
+      font-size: 200%;
+    }
+    .fruits .image,
+    .fruits .image2 {
+      width: 30%;
+      height: auto;
+    }
+    .banana,
+    .cabbage {
+      flex-direction: column;
+      height: auto;
+      width: 90%;
+    }
+    #ban1,
+    #ban2 {
+      width: 100%;
+      height: auto;
+    }
+    .orders {
+      width: 80%;
+    }
+    .orders .words,
+    .orders .numbers {
+      font-size: 80%;
+    }
+    .but-order,
+    .but,
+    .but2 {
+      padding: 5px 20px;
+      font-size: 80%;
+    }
+  }
+  /* Medium screens */
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    .cart h2 {
+      font-size: 250%;
+    }
+    .fruits .image,
+    .fruits .image2 {
+      width: 20%;
+      height: auto;
+    }
+    .banana,
+    .cabbage {
+      flex-direction: column;
+      height: auto;
+      width: 90%;
+    }
+    #ban1,
+    #ban2 {
+      width: 100%;
+      height: auto;
+    }
+    .orders {
+      width: 70%;
+    }
+    .orders .words,
+    .orders .numbers {
+      font-size: 90%;
+    }
+    .but-order,
+    .but,
+    .but2 {
+      padding: 5px 25px;
+      font-size: 90%;
+    }
+  }
+  .ment{
+    margin-left: 4%;
+    color: black;
+  }
+  /* Large screens */
+  @media screen and (min-width: 769px) {
+    .cart h2 {
+      font-size: 300%;
+    }
+    .fruits .image,
+    .fruits .image2 {
+      width: 15%;
+      height: 10%;
+    }
+    .banana,
+    .cabbage {
+      flex-direction: row;
+      height: 40vh;
+      width: 70%;
+    }
+    #ban1 {
+      width: 50%;
+      height: 40vh;
+    }
+    #ban2 {
+      width: 50%;
+      height: 40vh;
+    }
+    .orders {
+      width: 30%;
+    }
+    .orders .words,
+    .orders .numbers {
+      font-size: 100%;
+    }
+    .but-order,
+    .but,
+    .but2 {
+      padding: 10px 35px;
+      font-size: 100%;
+    }
+  }
